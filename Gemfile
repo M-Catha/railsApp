@@ -34,8 +34,8 @@ gem 'jbuilder', '2.4.1'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3', '1.3.12'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '9.0.0', platform: :mri
 end
 
@@ -46,6 +46,13 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
+end
+
+group :test do
+  gem 'rails-controller-testing', '0.1.1'
+  gem 'minitest-reporters',       '1.1.9'
+  gem 'guard',                    '2.13.0'
+  gem 'guard-minitest',           '2.4.4'
 end
 
 group :production do
