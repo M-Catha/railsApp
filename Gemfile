@@ -10,7 +10,10 @@ end
 gem 'rails', '5.0.1'
 # Use Puma as the app server
 gem 'bcrypt', '3.1.11'
+gem 'faker', '1.6.6'
 gem 'puma', '3.4.0'
+gem 'will_paginate', '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
