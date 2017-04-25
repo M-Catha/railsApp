@@ -53,4 +53,9 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   config.web_console.whitelisted_ips = '76.107.33.246'
+  
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :test
+  host = 'https://rails-tutorial-matt-catha.c9users.io/' # Cloud IDE
+  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 end
