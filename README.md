@@ -17,9 +17,5 @@ The live demo of this completed app can be seen here:
 
 [Heroku](https://matts-rails-tutorial.herokuapp.com/)
 
-The original repo with commit history can be seen here:
-
-[Bitbucket](https://bitbucket.org/MCatha/sample_app/overview)
-
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
